@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://base-apparel-cs-demo.netlify.app/)
+- Solution URL: (https://base-apparel-coming-soon-demo.netlify.app/)
 
 ## My process
 
@@ -41,4 +41,4 @@ Users should be able to:
 
 ## Author
 
-- Portfolio - [Brenden Evans](https://brendenevans.com)
+- Portfolio - [Brenden Henry Evans](https://brendenevans.com)
