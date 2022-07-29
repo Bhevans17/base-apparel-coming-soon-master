@@ -42,3 +42,5 @@ Users should be able to:
 ## Author
 
 - Portfolio - [Brenden Henry Evans](https://brendenevans.com)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/98955516-0f7f-48f4-95fd-e26b4ecab901/deploy-status)](https://app.netlify.com/sites/base-apparel-coming-soon-demo/deploys)
