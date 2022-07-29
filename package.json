@@ -1,0 +1,30 @@
+{
+  "name": "base-apparel-coming-soon-master",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Base Apparel coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "src/js/main.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel serve src/index.html --public-url / --dist-dir dist",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhevans17/base-apparel-coming-soon-master.git"
+  },
+  "keywords": [],
+  "author": "Brenden Henry Evans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhevans17/base-apparel-coming-soon-master/issues"
+  },
+  "homepage": "https://github.com/Bhevans17/base-apparel-coming-soon-master#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.2.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2"
+  }
+}

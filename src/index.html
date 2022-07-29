@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="stylesheet" href="scss/styles.scss">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+
+  <!-- MOBILE -->
+  <div class="d-block d-xl-none">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 py-4">
+          <a href="index.html" alt="Company logo">
+            <img src="./images/logo.svg" alt="logo">
+          </a>
+        </div>
+      </div>
+    </div>
+    <img class="img-fluid w-100" src="./images/hero-mobile.jpg" style="object-fit: cover;" alt="girl">
+    <div class="container">
+      <div class="row vh-100">
+        <div class="col-12 text-center py-5 px-4">
+          <h1 class="display-1 text-uppercase"><span class="text-dark-pink">We&sbquo;re</span><span class="fw-bolder"><br>coming <br>soon</span> </h1>
+          <p class="text-dark-pink my-4">Hello fellow shoppers! We're currently building our new fashion store.
+            Add your email below to stay up-to-date with announcements and our launch deals.</p>
+          <form class='needs-validation' action="/" method="POST" novalidate>
+            <div class="input-group">
+              <input type="text" class="form-control border-light-brown rounded-pill bg-transparent px-4 py-3" placeholder="Email address" aria-label="Email address" aria-describedby="basic-addon2" required>
+              <div class="valid-feedback text-start">Enter email address</div>
+              <div class="invalid-feedback text-start">Email field cannot be blank</div>
+              <div class="input-group-append">
+                <button class="btn btn-light-pink rounded-pill px-5 py-3 shadow" type="submit">
+                  <img class="img-fluid" src="./images/icon-arrow.svg" alt="">
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DESKTOP -->
+  <div class="d-none d-xl-block">
+    <div class="container-fluid p-0">
+      <div class="row d-flex align-items-center vh-100">
+        <div class="col-7 p-5">
+          <div class="w-50 mx-auto">
+          <img class='img-fluid mb-5' src="./images/logo.svg" alt="logo">
+          <h1 class="display-1 text-uppercase"><span class="text-dark-pink">We&sbquo;re</span><span class="fw-bolder"><br>coming <br>soon</span> </h1>
+          <p class="lead my-5 text-dark-pink">Hello fellow shoppers! We're currently building our new fashion store.
+            Add your email below to stay up-to-date with announcements and our launch deals.</p>
+            <form class='needs-validation' class="d-block" action="/" method="POST" novalidate>
+              <div class="input-group">
+                <input type="text" class="form-control border-light-brown rounded-pill bg-transparent px-4 py-3" placeholder="Email address" aria-label="Email address" aria-describedby="basic-addon2" required>
+                <div class="valid-feedback text-start">Enter email address</div>
+                <div class="invalid-feedback text-start">Email field cannot be blank</div>
+                <div class="input-group-append">
+                  <button class="btn btn-light-pink rounded-pill px-5 py-3 shadow" type="submit">
+                    <img class="img-fluid" src="./images/icon-arrow.svg" alt="">
+                  </button>
+                </div>
+              </div>
+            </div>
+            </form>
+        </div>
+        <div class="col-5">
+          <img class="img-fluid vh-100 w-100 position-relative end-0" src="./images/hero-desktop.jpg" style="object-fit: cover;" alt="hero">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
